@@ -30,8 +30,7 @@ function onStopColorChenge () {
 
 function bgrColorChange() {
   const indexOfColors = randomIntegerFromInterval(0, colors.length-1);
-  console.log(indexOfColors);
-  console.log(colors[indexOfColors]);
+
   document.body.style.backgroundColor = colors[indexOfColors];
   // працюють обидва способи
   // document.body.setAttribute('style', `background-color:${colors[indexOfColors]}`)
